@@ -6,7 +6,6 @@
     width: 100%;
     align-content: center;
     background-color: lightgrey;
-    border: 4px black;
 }
 
 .post {
@@ -14,8 +13,6 @@
     width: 50%;
     background-color: white;
     margin: auto;
-    
-
 }
 
 .title {
