@@ -1,33 +1,48 @@
-.header {
-    align-content: center;
+h1 {
+    margin: auto;
+    text-align: center;
 }
 
 .feedbody {
     width: 100%;
     align-content: center;
     background-color: lightgrey;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .post {
-    display: flex;
     width: 50%;
     background-color: white;
-    margin: auto;
+    margin: 5% auto 5% auto;
+}
+
+.post div {
+    padding: 5px;
+}
+
+.top {
+    display:flex;
 }
 
 .title {
+    width: 80%;
     font-weight: bold;
     text-align: left;
+    justify-content: flex-start;
 }
 
 .date {
     color: grey;
+    justify-content: flex-end;
 }
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    float:
+    width: 100%;
+
   }
+
+.posttext {
+
+}
