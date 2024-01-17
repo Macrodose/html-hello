@@ -1,20 +1,19 @@
 h1 {
-    margin: auto;
-    text-align: center;
+    text-align: center;   
 }
 
 .feedbody {
-    width: 100%;
-    align-content: center;
     background-color: lightgrey;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 .post {
     width: 50%;
     background-color: white;
-    margin: 5% auto 5% auto;
+    margin-top: 20px;
 }
 
 .post div {
@@ -23,26 +22,18 @@ h1 {
 
 .top {
     display:flex;
+    justify-content: space-between;
 }
 
 .title {
-    width: 80%;
     font-weight: bold;
-    text-align: left;
-    justify-content: flex-start;
 }
+
 
 .date {
     color: grey;
-    justify-content: flex-end;
 }
 
 img {
-    display: block;
     width: 100%;
-
   }
-
-.posttext {
-
-}
